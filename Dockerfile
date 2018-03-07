@@ -11,6 +11,6 @@ ADD server.properties /etc/minecraft/server.properties
 WORKDIR /etc/minecraft
 RUN java -jar forge-1.8-11.14.1.1336-installer.jar --installServer
 EXPOSE 25565
-CMD ["java","-jar","minecraft_server.1.8.jar","nogui"]
+CMD ["java","-jar","forge-1.8-11.14.1.1336-universal.jar"]
 
 
